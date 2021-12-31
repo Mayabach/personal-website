@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <script src="script.js"></script>
+  <head>
+    <title>Maya's Webpage</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- My stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!--navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand"><img class="logo"/></a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img class="navbar-toggler-icon">
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#aboutme">About me<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#employment">Employment</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#hobbies">My Hobbies</a>
+            </li>
+            <li>
+                <label class="switch">
+                <input type="checkbox" onclick="darkmode()"/>
+                <span class="slider"></span>
+            </li>
+            </label>
+            </ul>
+        </div>
+        </nav>
+
+        <div class="dividers"><a name="aboutme"></a></div>
+        <h1 class="sections">About me</h1>
+        <p class="text-box">
+            <img src="./pics/myself.jpg">
+            Hi! my name is Maya Bachar, I am 24 years old and from Hofit which is a small moshav in 'Emek Hefer'. <br>
+            Welcome to my Website... <br>
+            Feel free to look around!
+        </p>
+        <div class="dividers"><a name="education"></a></div>
+        <h1 class="sections">Education and Courses</h1>
+        <div class="text-box education">
+            <div class="one">
+                <p class="dates">2020 - Present </p>
+                <p class="edu">IDC - B.Sc  Double Major in Computer Science and Entrepreneurship</p>
+            </div>
+            <div class="one">
+                <p class="dates">2017</p>
+                <p class="edu"> IDF - Officers Academy Officers Course </p>
+            </div>
+            <div class="one">
+                <p class="dates">2016</p>
+                <p class="edu"> IDF - 9900 Satellite Operators Course </p>
+            </div>
+            <div class="one">
+                <p class="dates">2013 - 2015</p>
+                <p class="edu"> "Bnei Hamoshavim" Youth Organization Counselors Course</p>
+            </div>
+            <div class="one">
+                <p class="dates">2015</p>
+                <p class="edu"> "Ramot Yam" High School Diploma<br>
+                    Majors - Physics (91), Chemistry (94), Math (86), English (97)</p>
+            </div>
+        </div>
+        <div class="dividers"><a name="employment"></a></div>
+        <h1 class="sections">Employment</h1>
+        <div class="text-box education">
+            <div class="two">
+                <p class="dates">2020 - Present</p>
+                <p class="jobs"> Qwilt </p>
+                <p class="jobs"> NOC Engineer </p>
+                <p class="edu">Handling and solving tier 1 and tier 2 technical support level issues.<br>
+                    Monitoring traffic and detecting anomalies in  a worldwide spread network.</p>
+            </div>
+            <div class="two">
+                <p class="dates">2018 - 2019</p>
+                <p class="jobs"> IDF - 9900 </p>
+                <p class="jobs"> Head of Operational Team </p>
+                <p class="edu">
+                    Led a total of 5 officers and 20 soldiers<br>
+                    Initiated future Innovative projects related to the emerging Space industry development.
+                </p>
+            </div>
+            <div class="two">
+                <p class="dates">2018 - 2019</p>
+                <p class="jobs"> IDF - 9900 </p>
+                <p class="jobs"> Recruiting Officer </p>
+                <p class="edu">
+                    Performed as a Recruiting Officer for the unit while also performing as head of operational team. <br>
+                    In charge of sourcing, selecting and recruiting candidates to the unit through personal interviews.
+                </p>
+            </div>
+        </div>
+        <div class="dividers"><a name="hobbies"></a></div>
+        <h1 class="sections">My Hobbies</h1>
+        <p class="text-box">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Vero, cupiditate eius. Dolorum corrupti iusto dolor inventore necessitatibus ex delectus recusandae sapiente, animi at tempore,
+            voluptas placeat cum possimus ea beatae.
+        </p>
+    </body>
+    </svg>
+
+    <div class="popup" id="popupform">
+        <form action="javascript:sendform()" id="myForm">
+            <h3>Contact Me</h3>
+            <input id="first" class="formin" type="text" placeholder="First Name" required>
+            <input id="last" class="formin" type="text" placeholder="Last Name" required>
+            <input id="mail" class="formin" type="email" placeholder="Email" required>
+            <input id="tel" class="formin" type="tel" pattern="05[0-9][0-9]{7}" placeholder="Phone Number eg.0541234567" required>
+            <textarea id="message" class="formin" rows="5" placeholder="Message..." required></textarea>
+            <button id="sub" class="send" type="submit" value="submit">Send</button>
+            <button class="send" type="reset" value="Reset" onclick="closeform()">Cancel</button>
+        </form>
+    </div>
+
+    <!--footer-->
+    <footer>
+      <svg class="svg--source" width="0" height="0" aria-hidden="true">
+        <symbol id="icon-32 spotify" viewbox="-20 -20 550 550">
+          <path fill="#1DB954" d="M256 78c-98.3 0-178 79.7-178 178 0 98.31 79.7 178 178 178 98.31 0 178-79.69 178-178 0-98.3-79.69-178-178-178zm81.63 256.73a11.09 11.09 0 0 1-15.26 3.68c-41.8-25.53-94.4-31.31-156.37-17.16a11.1 11.1 0 0 1-4.93-21.64c67.8-15.49 125.96-8.82 172.88 19.86a11.1 11.1 0 0 1 3.68 15.26zm21.79-48.47a13.88 13.88 0 0 1-19.1 4.57c-47.84-29.4-120.77-37.92-177.36-20.74a13.9 13.9 0 0 1-17.32-9.25 13.9 13.9 0 0 1 9.25-17.3c64.65-19.62 145.01-10.12 199.96 23.64a13.87 13.87 0 0 1 4.56 19.08zm1.87-50.47c-57.37-34.07-152.02-37.2-206.8-20.58a16.65 16.65 0 1 1-9.66-31.87c62.88-19.08 167.4-15.4 233.45 23.81a16.63 16.63 0 0 1 5.82 22.82 16.63 16.63 0 0 1-22.8 5.82h-.01z" />
+        </symbol>
+
+        <symbol id="svg--facebook" viewbox="-11 -11 70 70">
+            <path fill="#1778F2" d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path>
+        </symbol>
+
+        <symbol id="svg--linkedin" viewbox="-8 -8 40 40">
+            <path fill="#0e76a8" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path>
+        </symbol>
+
+        <symbol id="svg--gmail" viewbox="-10 -10 70 70">
+            <path fill="#4caf50" d="M45,16.2l-5,2.75l-5,4.75L35,40h7c1.657,0,3-1.343,3-3V16.2z"/>
+            <path fill="#1e88e5" d="M3,16.2l3.614,1.71L13,23.7V40H6c-1.657,0-3-1.343-3-3V16.2z"/><polygon fill="#e53935" points="35,11.2 24,19.45 13,11.2 12,17 13,23.7 24,31.95 35,23.7 36,17"/><path fill="#c62828" d="M3,12.298V16.2l10,7.5V11.2L9.876,8.859C9.132,8.301,8.228,8,7.298,8h0C4.924,8,3,9.924,3,12.298z"/>
+            <path fill="#fbc02d" d="M45,12.298V16.2l-10,7.5V11.2l3.124-2.341C38.868,8.301,39.772,8,40.702,8h0 C43.076,8,45,9.924,45,12.298z"></path>
+        </symbol>
+
+      <div class="wrapper">
+
+          <a href="https://open.spotify.com/user/31bwbmwbjtewlpwhw3gnylujsu4u" rel="author" class="share spotify">
+            <svg role="presentation" class="svg--icon">
+              <use xlink:href="#icon-32 spotify" />
+              <span class="clip">SPOTIFY</span>
+            </svg>
+          </a>
+
+          <a href="https://www.facebook.com/bachar.maya" rel="author" class="share facebook">
+            <svg role="presentation" class="svg--icon">
+              <use xlink:href="#svg--facebook" />
+              <span class="clip">FACEBOOK</span>
+            </svg>
+          </a>
+
+          <a href="https://www.linkedin.com/in/maya-bachar-2640191b3/" class="share linkedin">
+            <svg role="presentation" class="svg--icon">
+              <use xlink:href="#svg--linkedin" />
+              <span class="clip">linkedin</span>
+            </svg>
+          </a>
+
+          <a href="#" onclick="popform()" class="share gmail">
+            <svg role="presentation" class="svg--icon">
+              <use xlink:href="#svg--gmail" />
+              <span class="clip">gmail</span>
+            </svg>
+          </a>
+      </div>
+    </footer>
+</html>
