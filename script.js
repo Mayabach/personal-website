@@ -58,3 +58,10 @@ function sendform(){
     form.reset();
     closeform();
 }
+
+function messageok(form){
+    if (form.message.value.length < 5){
+        alert("Please Write more that 5 characters");
+        return false;
+    } else return true;
+}
